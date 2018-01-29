@@ -24,10 +24,10 @@ end
 
 
 def kesha_maker(array)
- x = array.each do |kesha|
+  array.each do |kesha|
     kesha[2] = "$"
   end
-  x
+  
 end
 
 def find_a(array)
